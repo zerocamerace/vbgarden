@@ -6,6 +6,7 @@ export interface Project {
   link: string;
   top: string; // percentage for positioning
   left: string; // percentage for positioning
+  thumbnail?: string;
 }
 
 export interface FooterLink {
